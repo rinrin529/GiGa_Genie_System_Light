@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>ETRI::SMART Light</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<script type="text/javascript" src="http://svcapi.gigagenie.ai/sdk/v1.0/js/gigagenie.js"></script>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script type="text/javascript">
+
+var options={};
+
+function init(){
+    options={};
+    options.apikey="RTUwMDQxNzh8R0JPWERFVk18MTU5NzAxOTkyNDA3NA=="; // api key given from developer portal
+    options.keytype="GBOXDEVM"; 
+    gigagenie.init(options,function(result_cd,result_msg,extra){
+        if(result_cd===200){
+            alert('!! Welcome !!');
+        };
+    });
+}
+
+</script> 
+</head>
+
+<body style="background-color: white; margin-left:40px;" onload=init()>
+
+    <div>
+        <h1>ETRI SMART Light Web Page</h1>
+        <button id="tts-btn"> Call Genie </button>
+        <button id="discovery-btn"> Discovery </button>
+    </div>
+    <br>
+    <img name = "spcace" src="img/space.png" alt="Smart Light" width="100" height="100">
+    <img name = "light_1" src="img/smartlight.png" alt="Smart Light" width="100" height="100">
+    <img name = "light_2" src="img/smartlight.png" alt="Smart Light" width="100" height="100"><br>
+    <img name = "spcace" src="img/space.png" alt="Smart Light" width="100" height="100">
+    <img name = "light_3" src="img/smartlight.png" alt="Smart Light" width="100" height="100">
+    <img name = "light_4" src="img/smartlight.png" alt="Smart Light" width="100" height="100"><br>
+    <img name = "light_5" src="img/smartlight.png" alt="Smart Light" width="100" height="100">
+    <img name = "light_6" src="img/smartlight.png" alt="Smart Light" width="100" height="100">
+    <img name = "light_7" src="img/smartlight.png" alt="Smart Light" width="100" height="100">
+    
+    
+    <script src="jquery-3.0.0.min.js"></script>
+    <script src="./GiGA-Genie.js"></script>
+</body>
+</html>
