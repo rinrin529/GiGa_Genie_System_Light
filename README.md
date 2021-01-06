@@ -2,16 +2,16 @@
 인공지능 스피커 기반 시스템 조명 제어
 
 
-# 환경 구축
+## 환경 구축
 
-![image](https://user-images.githubusercontent.com/45943080/103728434-5bd8a680-5021-11eb-84f6-8eee6daf402a.png)
+![image](https://user-images.githubusercontent.com/45943080/103729266-68f69500-5023-11eb-8ffb-8baec8abc0c4.png)
 
-![image](https://user-images.githubusercontent.com/45943080/103728495-888cbe00-5021-11eb-8ba0-7ad5bf1922b3.png)
+![image](https://user-images.githubusercontent.com/45943080/103729298-7b70ce80-5023-11eb-923d-0e77b5c0d842.png)
+<br/><br/><br/>
 
+## Service SDK
 
-# Service SDK
-
-![image](https://user-images.githubusercontent.com/45943080/103728579-c7bb0f00-5021-11eb-9f34-5ce721d0df8b.png)
+![image](https://user-images.githubusercontent.com/45943080/103729349-8f1c3500-5023-11eb-8474-214e57350bf6.png)
 
 
 - 기가기니 서비스를 개발하기 위한 개발 kit
@@ -21,11 +21,11 @@
 - 서비스에 필요한 기가지니 SDK API를 찾아서 코드에 적용
 
 - 사용자 발화문에 맞는 서비스 실행
+<br/><br/><br/>
 
+## Dialog Kit
 
-# Dialog Kit
-
-![image](https://user-images.githubusercontent.com/45943080/103728735-284a4c00-5022-11eb-9afb-1f13129f35c1.png)
+![image](https://user-images.githubusercontent.com/45943080/103729367-9e02e780-5023-11eb-8cae-22a943ce1f51.png)
 
 - 기가지니 대화 플랫폼
 
@@ -36,19 +36,18 @@
 - 어휘 사전 : 인텐트를 구성하는 요소
 
 - 인텐트 : 발화문을 하나로 정의하는 실행어
+<br/><br/><br/>
 
+## 프로그램 구현 모습
 
+- 인공지능 스피커의 명령어 인식에 따른 시스템 조명 동작 
 
-# 프로그램 구현 모습
-
-- 인공지능 스피터의 명령어 인식에 따른 시스템 조명 동작 
-
-![image](https://user-images.githubusercontent.com/45943080/103729083-f2599780-5022-11eb-8a21-15a520658218.png)
+![image](https://user-images.githubusercontent.com/45943080/103729391-aeb35d80-5023-11eb-9343-89a9bf469e86.png)
 
 
 - 3rd Party 웹 서버 페이지
 
-![image](https://user-images.githubusercontent.com/45943080/103729194-3482d900-5023-11eb-9b30-5b69b22319bf.png)
+![image](https://user-images.githubusercontent.com/45943080/103729416-bd017980-5023-11eb-95b0-a0688aa5b226.png)
 
 
 
