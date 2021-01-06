@@ -41,8 +41,9 @@
 <br/><br/><br/>
 
 ## 프로그램 구현 모습
-<br/>
-![image](https://user-images.githubusercontent.com/45943080/103729391-aeb35d80-5023-11eb-9343-89a9bf469e86.png)
+
+
+![image](https://user-images.githubusercontent.com/45943080/103729807-95f77780-5024-11eb-8cee-176bda16c0e5.png)
 
 - 인공지능 스피커의 명령어 인식에 따른 시스템 조명 동작 
 <br/><br/>
