@@ -40,14 +40,14 @@
 
 ## 프로그램 구현 모습
 
-- 인공지능 스피커의 명령어 인식에 따른 시스템 조명 동작 
-
 ![image](https://user-images.githubusercontent.com/45943080/103729391-aeb35d80-5023-11eb-9343-89a9bf469e86.png)
 
+- 인공지능 스피커의 명령어 인식에 따른 시스템 조명 동작 
 
-- 3rd Party 웹 서버 페이지
 
 ![image](https://user-images.githubusercontent.com/45943080/103729416-bd017980-5023-11eb-95b0-a0688aa5b226.png)
+
+- 3rd Party 웹 서버 페이지
 
 
 
