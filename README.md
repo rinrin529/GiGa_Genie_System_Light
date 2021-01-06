@@ -1,5 +1,7 @@
 # GiGA Genie System Light
-인공지능 스피커 기반 시스템 조명 제어
+인공지능 스피커와 시스템 조명을 연동하여 음성으로 제어한다.
+아파치 웹 서버를 사용해 3rd party web server를 구축하여 인공지능 스피커와 연결하고 서버에서는 인공지능 스피커의 SDK를 사용했다.
+스피커의 API를 웹 서버에 적용하여 음성 명령어가 인식 되었을 때 RESTful을 사용해 스마트 조명의 gateway로 통신을 보내서 조명을 제어한다.
 
 
 ## 환경 구축
@@ -39,11 +41,11 @@
 <br/><br/><br/>
 
 ## 프로그램 구현 모습
-
+<br/>
 ![image](https://user-images.githubusercontent.com/45943080/103729391-aeb35d80-5023-11eb-9343-89a9bf469e86.png)
 
 - 인공지능 스피커의 명령어 인식에 따른 시스템 조명 동작 
-
+<br/><br/>
 
 ![image](https://user-images.githubusercontent.com/45943080/103729416-bd017980-5023-11eb-95b0-a0688aa5b226.png)
 
