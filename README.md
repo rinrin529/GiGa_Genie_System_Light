@@ -1,4 +1,4 @@
-<br/><h1 align="center">GiGA Genie System Light</h1>
+<h1 align="center">GiGA Genie System Light</h1>
 인공지능 스피커와 시스템 조명을 연동하여 음성으로 제어한다.<br/>
 아파치를 사용해 3rd party web server를 구축하여 인공지능 스피커와 연결하고<br/>
 서버에서는 인공지능 스피커의 SDK를 사용했다.<br/>
