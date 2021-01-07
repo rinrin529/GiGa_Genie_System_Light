@@ -60,7 +60,6 @@ Dialog Kit은 NLU를 통해 각 문장 안에서의 주요 명사형 어휘와 �
 그리고 아무것도 수행하지 않은 사용 안함이 있다.<br/><br/>
 
 - 기가지니 서버 코드
-<br/>
 ```javascript
 gigagenie.voice.onActionEvent=function(extra){
   var body = {};
@@ -71,14 +70,9 @@ gigagenie.voice.onActionEvent=function(extra){
           var all = extra.parameter['NE-EVERY'];
           if (all){
             SendVoice("모든 조명 켰습니다");
-            document.light_1.src = "img/smartlight_2.png";
-            document.light_2.src = "img/smartlight_2.png";
-            document.light_3.src = "img/smartlight_2.png";
             ...
           }
-          ...
-```
-<br/>          
+```      
 기가 지니 서버 코드 단에서 인텐트가 실행되었을때 음성으로 메세지를 따로 전달하기 때문에<br/>
 인텐드 답변으로 "넵넵 켤게요"는 화면 상에 메세지로 출력된다.<br/>
 
