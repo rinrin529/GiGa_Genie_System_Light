@@ -69,7 +69,7 @@ gigagenie.voice.onActionEvent=function(extra){
           var light_num = extra.parameter['NE-B-Ordinal'];
           var all = extra.parameter['NE-EVERY'];
           if (all){
-            SendVoice("모든 조명 켰습니다");
+            SendVoice("모든 조명 켰습니다"); //음성메세지 전달
             ...
           }
 ```      
