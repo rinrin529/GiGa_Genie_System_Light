@@ -55,7 +55,8 @@ Dialog Kit은 NLU를 통해 각 문장 안에서의 주요 명사형 어휘와 �
 ## 인텐트 답변
 ![대답목록](https://user-images.githubusercontent.com/45943080/103899616-ffb57580-5139-11eb-8c80-c6a50815ed29.JPG)
 등록한 인텐트를 실행했을 시 처리하는 방법이다.<br/>
-전달 방법 옵션으로는 기가 지니를 통해 음성으로 메세지 전달, 웹앱의 실행 페이지에서 메세지를 출력하는 웹앱 전달, 그리고 아무것도 수행 안함이 있.<br/>
+전달 방법 옵션으로는 기가 지니를 통해 음성으로 메세지 전달<br/>
+웹앱의 실행 페이지에서 메세지를 출력하는 웹앱 전달, 그리고 아무것도 수행 안함이 있다.<br/><br/>
 
 - 기가지니 서버 코드
 ```javascript
@@ -83,7 +84,6 @@ gigagenie.voice.onActionEvent=function(extra){
 <br/><br/>
 
 ![image](https://user-images.githubusercontent.com/45943080/103729416-bd017980-5023-11eb-95b0-a0688aa5b226.png)
-
 - 3rd Party 웹 서버 페이지
 
 
