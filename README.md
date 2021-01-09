@@ -70,6 +70,7 @@ gigagenie.voice.onActionEvent=function(extra){
             SendVoice("모든 조명 켰습니다"); //음성메세지 전달
             ...
           }
+      ...
 ```      
 기가 지니 서버 코드 단에서 인텐트가 실행되었을때 음성으로 메세지를 따로 전달하기 때문에<br/>
 인텐드 답변으로 "넵넵 켤게요"는 화면 상에 메세지로 출력된다.<br/><br/><br/>
