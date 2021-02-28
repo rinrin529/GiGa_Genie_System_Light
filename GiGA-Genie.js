@@ -6,7 +6,7 @@ gigagenie.voice.onActionEvent=function(extra){
           var light_num = extra.parameter['NE-B-Ordinal'];
           var all = extra.parameter['NE-EVERY'];
           if (all){
-            SendVoice("모든 조명 켰습니다");
+            SendVoice("모든 조명 켰습니다");  
             document.light_1.src = "img/smartlight_2.png";
             document.light_2.src = "img/smartlight_2.png";
             document.light_3.src = "img/smartlight_2.png";
