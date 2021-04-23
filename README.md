@@ -1,12 +1,6 @@
 <h1 align="center">GiGA Genie System Light</h1>
 (회사 보안 규정상의 문제로 프로젝트의 일부 코드만 공개 합니다)<br/>
 인공지능 스피커와 시스템 조명을 연동하여 음성으로 제어한다.<br/><br/>
-- 개발 환경
-
-
-| DBMS | Server Side | Front-End |
-|:----:|:----:|:----:|
-| MySQL | JavaScript | Bootstrap, HTML|
 
 1. 3rd party 웹 서버를 구축하여 인공지능 스피커와 연동<br/>
 2. JavaScript Object로 제공되는 인공지능 스피커 SDK 사용<br/>
