@@ -1,10 +1,11 @@
 <h1 align="center">GiGA Genie System Light</h1>
 (회사 보안 규정상의 문제로 프로젝트의 일부 코드만 공개 합니다)<br/>
-인공지능 스피커와 시스템 조명을 연동하여 음성으로 제어한다.<br/>
-아파치를 사용해 3rd party web server를 구축하여 인공지능 스피커와 연결하고<br/>
-서버에서는 인공지능 스피커의 SDK를 사용했다.<br/>
-스피커의 API를 웹 서버에 적용하여 음성 명령어가 인식 되었을 때<br/>
-RESTful을 사용해 스마트 조명의 gateway로 통신을 보내서 조명을 제어한다.<br/><br/><br/>
+인공지능 스피커와 시스템 조명을 연동하여 음성으로 제어한다.<br/><br/>
+
+1. Apache 서버와 HTML을 사용하여 3rd party 웹 서버 구축<br/>
+2. JavaScript Object로 제공되는 인공지능 스피커 SDK 사용<br/>
+3. 시스템 조명의 REST API를 사용하여 시스템 조명의 gateway로 통신을 보내어 제어<br/><br/><br/>
+
 
 ## 환경 구축
 
