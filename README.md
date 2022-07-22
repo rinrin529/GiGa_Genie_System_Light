@@ -1,5 +1,4 @@
-<h1 align="center">GiGA Genie System Light</h1>
-(일부 코드 공개)<br/>    
+<h1 align="center">GiGA Genie System Light</h1> 
     
     
 #### 인공지능 스피커와 시스템 조명을 연동하여 음성으로 제어한다.    
