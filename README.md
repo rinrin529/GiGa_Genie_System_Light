@@ -1,6 +1,5 @@
 # 🔹 AI 스피커 기반 시스템 조명 제어
 
----
 
 `KT GIGA Genie Open API` `JavaScript` `Apache HTTP Server` `Rest API` 
 
@@ -8,7 +7,7 @@
 
 - Apache를 사용하여 3rd party 웹 서버를 구축하여 인공지능 스피커와 연동
 - JavaScript Object로 제공되는 인공지능 스피커 SDK 사용
-- 시스템 조명의 REST API를 사용하여 시스템 조명의 gateway로 통신을 보내어 제어
+- 시스템 조명의 REST API를 사용하여 시스템 조명의 gateway로 통신을 보내어 제어<br/><br/><br/>
 
 
 ## 환경 구축
