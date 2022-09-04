@@ -1,13 +1,14 @@
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Frinrin529%2FGiGa_Genie_System_Light%2Fhit-counter&count_bg=%238CBFE7&title_bg=%23989696&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-<h1 align="center">GiGA Genie System Light</h1> 
-    
-    
-#### 인공지능 스피커와 시스템 조명을 연동하여 음성으로 제어한다.    
-     
-     
-1. 3rd party 웹 서버를 구축하여 인공지능 스피커와 연동<br/>
-2. JavaScript Object로 제공되는 인공지능 스피커 SDK 사용<br/>
-3. 시스템 조명의 REST API를 사용하여 시스템 조명의 gateway로 통신을 보내어 제어<br/><br/><br/>
+# 🔹 AI 스피커 기반 시스템 조명 제어
+
+---
+
+`KT GIGA Genie Open API` `JavaScript` `Apache HTTP Server` `Rest API` 
+
+**인공지능 스피커와 시스템 조명을 연동하여 음성으로 제어한다**
+
+- Apache를 사용하여 3rd party 웹 서버를 구축하여 인공지능 스피커와 연동
+- JavaScript Object로 제공되는 인공지능 스피커 SDK 사용
+- 시스템 조명의 REST API를 사용하여 시스템 조명의 gateway로 통신을 보내어 제어
 
 
 ## 환경 구축
